@@ -121,21 +121,47 @@
 
 // Problem 1
 
-let userInput = prompt("Type your first name here!")
+// let userInput = prompt("Type your first name here!")
 
-function greet () {
-    alert(`Hello, `  + `${userInput}!`)
-}
+// function greet () {
+//     alert(`Hello, `  + `${userInput}!`)
+// }
 
-greet()
+// greet()
 
 // Problem 2
 
-let inputFahrenheit = prompt("Input temperature in fahrenheit to convert to celsius")
+// let inputFahrenheit = prompt("Input temperature in fahrenheit to convert to celsius")
 
-function convertToCelsius () {
-    convertedTemp = ((inputFahrenheit - 32) * 5/9)
-    alert(convertedTemp)
-}
+// function convertToCelsius () {
+//     convertedTemp = ((inputFahrenheit - 32) * 5/9)
+//     finalTemp = convertedTemp.toFixed(2)
+//     alert(`The temp in Celsius is ` finalTemp + `°C`)
+// }
 
-convertToCelsius()
+// convertToCelsius()
+
+// Problem 3
+
+// let evenNum = 22
+// let oddNum = 33
+
+// let userNum = prompt('input your number here to check if even or odd!')
+
+// function isEven (num) {
+//     let remainder = num % 2;
+//     if (remainder !== 0) {
+//         console.log('the number is odd!')
+//     } else {
+//         console.log('the number is even!')
+//     }
+    
+// };
+
+// isEven(userNum)
+
+// Problem 4
+
+// for (let i = 0; i < 11; i++) {
+//     console.log(i)
+// }
